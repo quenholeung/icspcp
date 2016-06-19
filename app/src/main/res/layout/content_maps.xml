@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.quenho.pcp.maps"
+    tools:showIn="@layout/activity_maps">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Maps"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mirage"
+        android:id="@+id/mirage"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="49dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inferno"
+        android:id="@+id/inferno"
+        android:layout_alignBottom="@+id/mirage"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cache"
+        android:id="@+id/cache"
+        android:layout_below="@+id/mirage"
+        android:layout_alignLeft="@+id/mirage"
+        android:layout_alignStart="@+id/mirage"
+        android:layout_marginTop="21dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overpass"
+        android:id="@+id/overpass"
+        android:layout_alignBottom="@+id/cache"
+        android:layout_alignLeft="@+id/inferno"
+        android:layout_alignStart="@+id/inferno" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cobblestone"
+        android:id="@+id/cobblestone"
+        android:layout_below="@+id/cache"
+        android:layout_alignLeft="@+id/cache"
+        android:layout_alignStart="@+id/cache"
+        android:layout_marginTop="34dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dust II"
+        android:id="@+id/dust"
+        android:layout_alignBottom="@+id/cobblestone"
+        android:layout_alignRight="@+id/inferno"
+        android:layout_alignEnd="@+id/inferno" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Train"
+        android:id="@+id/train"
+        android:layout_below="@+id/cobblestone"
+        android:layout_alignLeft="@+id/cobblestone"
+        android:layout_alignStart="@+id/cobblestone"
+        android:layout_marginTop="33dp" />
+</RelativeLayout>
