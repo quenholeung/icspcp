@@ -16,20 +16,21 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Counter-Strike Smokes"
+        android:text="@string/counter_strike_smokes"
         android:layout_marginTop="75dp"
         android:textAlignment="center"
-        android:textSize="35dp"
+        android:textSize="35sp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textColor="#000000"
-        android:id="@+id/textView" />
+        android:id="@+id/textView"
+        tools:targetApi="jelly_bean_mr1" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Maps"
+        android:text="@string/maps"
         android:id="@+id/maps"
         android:textColor="#000000"
         android:background="#c8872d"

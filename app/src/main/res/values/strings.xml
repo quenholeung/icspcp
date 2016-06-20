@@ -5,4 +5,7 @@
     <string name="title_activity_mirage">mirage</string>
     <string name="title_activity_inferno">inferno</string>
     <string name="title_activity_cache">cache</string>
+    <string name="counter_strike_smokes">Counter-Strike Smokes</string>
+    <string name="maps">Maps</string>
+    <string name="alt_mid_to_truck_smoke">Alt Mid to Truck Smoke</string>
 </resources>
